@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  
+  div.column:nth-child(1) > ul:nth-child(1) > li:nth-child(1) {
+    padding-top: 60px;
+  }
+  
+  
+    .table {
+        margin-top: 48px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 1140px;
+        border-radius: 1rem;
+        border-width: 1px;
+        border-color: var(--color-border-secondary);
+        background-color: var(--color-bg-primary);
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        --tw-shadow: 0 20px 25px -5px
+      rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        --tw-shadow-colored: 0 20px 25px -5px
+      var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+
+
+  @media (max-width: 1140px) {
+    .table {
+      flex-direction: column;
+    }
+  }
+
+  .column {
+    float: left;
+    column-width: auto;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Style the list */
+  .price {
+    list-style-type: none;
+    /* border: 1px solid #eee; */
+    margin: 0;
+    margin-right: 0px;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price {
+    margin-right: 52px;
+  }
+  
+  .price li {
+    padding: 16px;
+  }
+  
+  /* Add shadows on hover */
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Pricing header */
+  .price .header {
+    font-size: 25px;
+  }
+  .headerfeat {
+    padding-top: 70px !important;
+  }
+  .headerrows li {
+    padding-top: 15px  !important;
+    padding-bottom: 18px  !important;
+  }
+
+ 
+
+
+
+  /* List items */
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Grey list item */
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  /* The "Sign Up" button */
+  .button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+ 
+  p {
+    font-family: Arial;
+    font-size: 9px;
+  }
+  
+  /* .column {
+    float: left;
+    width: 33.33%;
+  } */
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  .btn {
+    background: var(--color-bg-button);
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    /* text-transform: uppercase; */
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+  }
+  .btn:hover {
+    color: #ff0404 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: rgb(255, 247, 3);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.3s ease 0s;
+  }
+
+  
