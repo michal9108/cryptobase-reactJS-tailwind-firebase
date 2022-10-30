@@ -5,7 +5,7 @@
 
 ## Link
 
-[Cryptobase website](https://netflix-523e3.web.app/)
+[Cryptobase website](https://cryptozakladna.firebaseapp.com/)
 
 ## Requirements
 
