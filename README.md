@@ -24,7 +24,6 @@ Before using this project, you will need to have installed [Node.js](https://nod
 $ git clone https://github.com/michal9108/cryptobase-reactJS-tailwind-firebase.git
 $ cd cryptobase-reactJS-tailwind-firebase.git
 $ npm install or yarn install
-$ npm i qrcode or yarn add qrcode
 ```
 
 The application will be listening on port 3000. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
