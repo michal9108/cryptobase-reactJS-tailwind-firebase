@@ -1,7 +1,8 @@
 # Crypto Base - ReactJS + Tailwind + Firebase + Firestore 
 
-<img src="https://github.com/michal9108/cryptobase-reactJS-tailwind-firebase/blob/416a827f80714a7b5664b9aa8a494944cad49850/cryptobase.jpg" width="100%" height="100%"/> 
+<a href="https://cryptozakladna.firebaseapp.com/" target="_blank"> <img src="https://github.com/michal9108/cryptobase-reactJS-tailwind-firebase/blob/416a827f80714a7b5664b9aa8a494944cad49850/cryptobase.jpg" onClick="https://cryptozakladna.firebaseapp.com/" width="100%" height="100%"/> 
 </a>
+
 
 ## Link
 
